@@ -1,1 +1,14 @@
+name: my workflow 
+on:
+  repository_dispatch:
+    type: [visibility-change]
+jobs:
+  visibility-change:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ./.github/actions/visibility
+         
+     
 
+    
+    
