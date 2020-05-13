@@ -1,1 +1,5 @@
-
+name: "visibility"
+description: "test"
+runs:
+  using: "node12"
+  main: "main.js"
